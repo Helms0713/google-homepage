@@ -1,1 +1,1 @@
-This is a practice project for The Odin Project on using google DevTools. 
+This is a practice project for The Odin Project on using google DevTools. I will know how to use DevTools for CSS and HTML after i do this.
