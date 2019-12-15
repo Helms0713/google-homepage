@@ -1,24 +1,77 @@
-.top{
-    padding-top: 109px;
-    text-align: -webkit-center;
-}
 
-#logo{
-    padding-top: 192px;
-    border-right-width: 20px;
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-top-width: 10px;
-}
-.center{
+.wholepage{
     text-align: center;
-}
 
 }
-#searchbox{
+#leftnav{
+    text-align: left;
+    display: inline-block;
+
+}
+#rightnav{
+    text-align: right;
+}
+#searchbar{
+    background-color:#fff;
+    height:44px;
+    vertical-align:top;
+    border:1px solid #dfe1e5;
+    border-radius:8px;
+    box-shadow:none;
+    transition:box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    padding-top:11px;
+    padding-right:28px;
+    padding-left:30px;
     height: 40px;
     width: 300px;
     border-width: 2px;
-   
+    color: gray;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    -webkit-transition:box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -moz-transition:box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -ms-transition:box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    -o-transition:box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+}
+/*google search button with hover effects*/
+.searchbutton {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+.searchbutton:hover {
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #535353;
+    border: 1px solid #535353;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
