@@ -3,13 +3,20 @@
     text-align: center;
 
 }
-#leftnav{
-    text-align: left;
-    display: inline-block;
+.navbar{
+    position: relative;
+}
+.leftnav{
+    position: absolute;
+    top: 8px;
+    left: 12px;
 
 }
-#rightnav{
-    text-align: right;
+.rightnav{
+    position: absolute;
+    top: 8px;
+    right: 12px;
+
 }
 #searchbar{
     background-color:#fff;
