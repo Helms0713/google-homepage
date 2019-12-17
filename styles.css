@@ -3,9 +3,30 @@
     text-align: center;
 
 }
-.navbar{
-    position: relative;
+#appslogo{
+    padding-left: 10px;
 }
+
+.navbar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    position: relative;
+    display: inline block;
+    padding-bottom: 20px;
+}
+
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color: rgb(0, 0, 0);
+}
+
 .leftnav{
     position: absolute;
     top: 8px;
@@ -19,12 +40,12 @@
 
 }
 #searchbar{
-    background-color:#fff;
-    height:44px;
+    background-color:rgb(255, 255, 255);
+    height:30px;
     vertical-align:top;
     border:1px solid #dfe1e5;
     border-radius:8px;
-    box-shadow:none;
+    box-shadow: none;
     transition:box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
     padding-top:11px;
     padding-right:28px;
@@ -32,17 +53,18 @@
     height: 40px;
     width: 300px;
     border-width: 2px;
-    color: gray;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
     -webkit-transition:box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
     -moz-transition:box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
     -ms-transition:box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
     -o-transition:box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
 }
+
 /*google search button with hover effects*/
 .searchbutton {
     background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
@@ -81,4 +103,11 @@
     -moz-border-radius: 4px;
     -ms-border-radius: 4px;
     -o-border-radius: 4px;
+}
+
+
+.logo{
+    position: relative;
+    padding: 60px;
+    top: 40px;
 }
